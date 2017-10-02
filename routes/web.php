@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::prefix("admin")->namespace("Admin")->group(function() {
+    Route::get("albums", "AlbumController@show")->name("album.show");
 });
+
+
+Auth::routes();
