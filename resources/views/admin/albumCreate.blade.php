@@ -18,7 +18,7 @@
                     </div>
                     <div class="form-group @if($errors->has('description')) has-error @endif">
                         <label for="description">Beschrijving</label> <span>Aantal karakters: <span id="remainingChars"></span></span>
-                        <textarea id="description" class="form-control" name="description"></textarea>
+                        <textarea style="height: 200px" id="description" class="form-control" name="description"></textarea>
                         @if($errors->has('description')) <p class="help-block">{{ $errors->first('description') }}</p>@endif
                     </div>
                     <div class="form-group">

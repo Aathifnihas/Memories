@@ -18,7 +18,7 @@
                     </div>
                     <div class="form-group @if($errors->has('description')) has-error @endif">
                         <label for="description">Beschrijving</label>
-                        <textarea class="form-control" name="description">{{ old('description', $album->description) }}</textarea>
+                        <textarea style="height: 200px" class="form-control" name="description">{{ old('description', $album->description) }}</textarea>
                         @if($errors->has('description')) <p class="help-block">{{ $errors->first('description') }}</p>@endif
                     </div>
                     <div class="form-group">
