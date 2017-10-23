@@ -9,7 +9,7 @@
                     <a class="navbar-brand" href="#">[Insert site name here]</a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li><a href="#">Albums</a></li>
+                    <li><a href="{{ route('album.show') }}">Albums</a></li>
                     <li><a href="#">Gebruikers</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">

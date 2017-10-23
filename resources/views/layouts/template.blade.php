@@ -6,7 +6,7 @@
         <meta name="author" content="Daryl van den Berg & Sharon van Rijn"/>
         <meta name="description" content="Website for sharing memories :)"/>
         <link rel="stylesheet" type="text/css" href="{{ asset("./css/app.css") }}"/>
-        @section('styles')
+    @section('styles')
         @show
     </head>
     <body>
